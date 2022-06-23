@@ -1,5 +1,4 @@
 
-console.log("public file is working")
 const input = document.querySelector('.countryForm');
 const countryName = document.getElementById('inputItem')
 const container = document.querySelector('.allText-container');
@@ -64,8 +63,6 @@ const executor = (data) => {
         const long = data['0'].capitalInfo.latlng['1'];
         const borders = data['0'].borders;
         const population = data['0'].population;
-        console.log(lat, long);
-        console.log(language);
         displayName(name)
         displayImages(flag, coatArms);
         displayOtherInfo(population, capital, currencies, continent, language);
@@ -160,7 +157,6 @@ const displayMap = (latLong) => {
         attribution: '© OpenStreetMap'
     }).addTo(map);
     if (allMarkers.length > 0) {
-        console.log(allMarkers[0])
         map.removeLayer(allMarkers[0]);
         allMarkers.pop()
     }
