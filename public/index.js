@@ -22,6 +22,7 @@ input.addEventListener('submit', (e) => {
     document.querySelector('.languagesText').innerHTML = "";
     document.querySelector('.currencyNameText').innerHTML = "";
     document.querySelector('.borders').innerHTML = ""
+    document.querySelector('.populationText').innerHTML = ""
     e.preventDefault();
     country = countryName.value;
 

@@ -108,7 +108,7 @@ header h1 {
     column-gap: 1%;
     visibility: hidden;
     width: 90%;
-    height: 90%;
+    height: 92%;
     margin: 0 auto;
     padding-left: 1%;
     padding-bottom: 2%;
@@ -121,9 +121,11 @@ header h1 {
   }
   .box{
     margin-top: 2%;
+    margin-bottom: 1%;
   }
   .box-1{
     padding: 2% 5% 2%;
+
     justify-content: space-around;
     border-radius: 4rem;
   
@@ -175,9 +177,11 @@ header h1 {
 
   .OtherInfo-container{
     width: 80%;
-    height: 27%;
-    margin-bottom: 1%;
-    padding: 0 1% 2% 1%;
+    height: 25%;
+
+    padding: 0 1% 2%;
+    margin-bottom: 2%;
+
     border-radius: 20px;
     background-color: rgba(0, 9, 39, 0.371);
 
