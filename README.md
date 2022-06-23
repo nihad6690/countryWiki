@@ -9,7 +9,7 @@ I did this project because I wanted to use Node.js to create a REST API project 
 - Leaflet.js
 
 ## Getting Started
-Download this repository in your computer and make sure the prerequisites downloaded below. In the terminal type `npm run dev` and then the project should be running on `http://localhost:4000`.
+Download this repository in your computer and make sure the prerequisites below are downloaded. In the terminal type `npm run dev` and then the project should be running on `http://localhost:4000`.
 
 ### Prerequisites
 `npm install nodemon`
