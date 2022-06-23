@@ -20,4 +20,4 @@ Download this repository in your computer and make sure the prerequisites below 
 
 ## Usage
 ![image](https://user-images.githubusercontent.com/86733538/175192140-ac67937e-089d-49f1-947d-a0ea29f5ec1e.png)
-![image](https://user-images.githubusercontent.com/86733538/175192061-c231bd7e-23e5-4167-bfa5-72d98a1b1d6a.png)
+![image](https://user-images.githubusercontent.com/86733538/175193252-fcc217b3-de92-4e6c-8fa5-d271e4723b34.png)
