@@ -13,7 +13,9 @@ Download this repository in your computer and make sure the prerequisites downlo
 
 ### Prerequisites
 `npm install nodemon`
+
 `npm install express`
+
 `npm install fetch`
 
 ## Usage
