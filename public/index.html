@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="https://unpkg.com/leaflet@1.8.0/dist/leaflet.css"
+        integrity="sha512-hoalWLoI8r4UszCkZ5kL8vayOGVae1oxXe/2A4AO6J9+580uKHDO3JdHb7NzwwzK5xr/Fs0W40kiNHxM9vyTtQ=="
+        crossorigin="" />
+    <script src="https://unpkg.com/leaflet@1.8.0/dist/leaflet.js"
+        integrity="sha512-BB3hKbKWOc9Ez/TAwyWxNXeoV9c1v6FIeYiBieIWkpLjauysF18NzgR1MBNBXf8/KABdlkX68nAhlwcDFLGPCQ=="
+        crossorigin=""></script>
+    <title>countryWiki</title>
+</head>
+
+<body>
+    <header>
+        <h1 class="Title">Country Wiki</h1>
+    </header>
+
+
+    <form class="countryForm">
+        <div class="country-container">
+            <div class="input">
+                <input style="display:inline" id="inputItem" type="text" placeholder="Enter a country...">
+                <button class="submit">SUBMIT</button>
+                <div style="font-size: larger; font-weight: 600; color: white; margin-top:2%; padding-right: 5%;">Please
+                    enter the full name of the country. Ex. instead of UK enter United Kingdom.</div>
+            </div>
+        </div>
+    </form>
+
+    <div class="allText-container">
+
+        <div class="box box-1">
+            <div class="countryTitle-container">
+                <span class="nameOfCountry" style="font-size: larger; font-weight: 600; color: white;">Name of the
+                    country:</span>
+                <p class="countryTitle" style="font-size: larger; font-weight: 600; color: white;"></p>
+            </div>
+
+            <div class="flag-container">
+                <div class="flag"></div>
+            </div>
+
+            <div class="coatArms-container">
+                <div class="coatArms"></div>
+            </div>
+            <div class="OtherInfo-container" style="font-size: larger; font-weight: 600; color: white;">
+                <p class="population">Population: </p>
+                <p class="populationText"></p>
+                <br>
+
+                <p class="capital">Capital: </p>
+                <p class="capitalText"></p>
+                <br>
+                <p class="continent">Continent: </p>
+                <p class="continentText"></p>
+                <br>
+                <p class="languages">Languages: </p>
+                <p class="languagesText"></p>
+                <br>
+                <p class="currencyName">Currency Name: </p>
+                <p class="currencyNameText"></p>
+            </div>
+        </div>
+
+        <div class="box box-2">
+            <p style="font-size: larger; font-weight: 600; color: white;">Map:</p><br>
+            <div id="map"></div>
+
+        </div>
+
+        <div class="box box-3">
+            <p style="font-size: larger; font-weight: 600; color: white;">Borders:</p><br>
+            <div class="borders"></div>
+        </div>
+
+
+    </div>
+
+    </div>
+
+    <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.7.1/jquery.min.js" type="text/javascript"></script>
+    <script src="index.js"></script>
+</body>
+
+</html>

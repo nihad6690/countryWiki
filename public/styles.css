@@ -1,0 +1,191 @@
+@import url('https://fonts.googleapis.com/css2?family=Prompt&display=swap');
+
+
+
+
+
+body {
+  font-family: Tahoma;
+  background-color: rgb(57, 140, 230);
+  }
+
+
+header h1 {
+    font-size: 400%;
+    font-weight: 600;
+    background-image: linear-gradient(to left, #054cff, #041d68);
+    color: transparent;
+    background-clip: text;
+    -webkit-background-clip: text;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    
+  }
+
+  .country-container{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 90%;
+    margin: 0 auto;
+    padding-top: 2%;
+    padding-bottom: 2%;
+    background:rgba(0, 0, 0, 0.371);
+    border-radius: 2rem;
+    
+  }
+
+  #inputItem{
+    border:none;
+    width: 30rem;
+    height:3rem;
+    vertical-align:middle;
+    border-radius:22px;
+    box-sizing:border-box;
+    padding:0 18px; 
+    
+  }
+
+  input[type="text"]::placeholder {  
+                  
+    font-size: medium;
+} 
+
+ 
+/* CSS */
+.submit {
+  appearance: none;
+  backface-visibility: hidden;
+  background-color: #27ae60;
+  border-radius: 22px;
+  border-style: none;
+  box-shadow: rgba(39, 174, 96, .15) 0 4px 9px;
+  box-sizing: border-box;
+  color: #fff;
+  cursor: pointer;
+  display: inline-block;
+  font-family: Inter,-apple-system,system-ui,"Segoe UI",Helvetica,Arial,sans-serif;
+  font-size: 16px;
+  font-weight: 600;
+  letter-spacing: normal;
+  line-height: 1.5;
+  outline: none;
+  overflow: hidden;
+  padding: 13px 20px;
+  position: relative;
+  text-align: center;
+  text-decoration: none;
+  transform: translate3d(0, 0, 0);
+  transition: all .3s;
+  user-select: none;
+  -webkit-user-select: none;
+  touch-action: manipulation;
+  vertical-align: top;
+  white-space: nowrap;
+}
+
+.submit:hover {
+  background-color: #1e8449;
+  opacity: 1;
+  transform: translateY(0);
+  transition-duration: .35s;
+}
+
+.submit:active {
+  transform: translateY(2px);
+  transition-duration: .35s;
+}
+
+.submit:hover {
+  box-shadow: rgba(39, 174, 96, .2) 0 6px 12px;
+}
+
+  .allText-container{
+    display: grid;
+    grid-template-columns: 29% 29% 34%;
+    column-gap: 1%;
+    visibility: hidden;
+    width: 90%;
+    height: 90%;
+    margin: 0 auto;
+    padding-left: 1%;
+    padding-bottom: 2%;
+    background:rgba(0, 14, 62, 0.371);
+
+    visibility: hidden;
+    border-radius: 2rem;
+
+  
+  }
+  .box{
+    margin-top: 2%;
+  }
+  .box-1{
+    padding: 2% 5% 2%;
+    justify-content: space-around;
+    border-radius: 4rem;
+  
+    border-radius: 22px;
+    background-color: rgba(39, 174, 96, .15);
+
+  }
+
+  .box-2{
+
+    padding: 2% 5% 2%;
+    justify-content: space-around;
+    border-radius: 4rem;
+
+    border-radius: 22px;
+    background-color: rgba(39, 174, 96, .15);
+  }
+
+
+  .borders{
+    display: grid;
+    grid-template-columns: 50% 50%;
+  }
+
+  .box-3{
+    padding: 2% 2% 2% 2%;
+    justify-content: space-around;
+    border-radius: 4rem;
+
+    border-radius: 22px;
+    background-color: rgba(39, 174, 96, .15);
+
+  }
+
+  .countryTitle,.populationText, .capitalText, .continentText, .languagesText, .currencyNameText{
+    display: inline-block;
+
+  }
+  .nameOfCountry, .population,.capital, .continent, .languages, .currencyName{
+    display: inline;
+  }
+  .show-container{
+    visibility: visible;
+  }
+  .show-after{
+    font-size: larger;
+    display: inline;
+  }
+
+  .OtherInfo-container{
+    width: 80%;
+    height: 27%;
+    margin-bottom: 1%;
+    padding: 0 1% 2% 1%;
+    border-radius: 20px;
+    background-color: rgba(0, 9, 39, 0.371);
+
+  }
+
+  #map { height: 60rem; }
+
+
+
+
+  
