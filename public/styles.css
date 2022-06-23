@@ -39,7 +39,7 @@ header h1 {
 
   #inputItem{
     border:none;
-    width: 30rem;
+    width: 37rem;
     height:3rem;
     vertical-align:middle;
     border-radius:22px;
@@ -50,7 +50,7 @@ header h1 {
 
   input[type="text"]::placeholder {  
                   
-    font-size: medium;
+    font-size: large;
 } 
 
  
