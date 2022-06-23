@@ -17,5 +17,5 @@ Download this repository in your computer and make sure the prerequisites downlo
 `npm install fetch`
 
 ## Usage
-![image](https://user-images.githubusercontent.com/86733538/175190435-915e3307-7286-45d5-8c33-b0504bc72526.png)
-![image](https://user-images.githubusercontent.com/86733538/175190519-7ddf4153-dbe1-4aa4-896a-59be28841e81.png)
+![image](https://user-images.githubusercontent.com/86733538/175191694-76312a4b-512b-413e-8af9-29dd9436deca.png)
+![image](https://user-images.githubusercontent.com/86733538/175191741-ec5abf93-ced8-4da9-a3d2-64c2018b2483.png)
